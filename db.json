@@ -1,0 +1,90 @@
+{
+  "recipes": [
+    {
+      "id": 0,
+      "name": "Poulet coco",
+      "nb_part": 4,
+      "description": "Poulet au lait de Coco avec du riz et gambas.",
+      "link": "https://www.youtube.com",
+      "ingredients": [
+        {
+          "name": "Poulet",
+          "quantity": 1,
+          "unit": "kg"
+        },
+        {
+          "name": "Lait de coco",
+          "quantity": 250,
+          "unit": "ml"
+        },
+        {
+          "name": "Riz",
+          "quantity": 1,
+          "unit": "kg"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Poulet gingembre",
+      "nb_part": 4,
+      "description": "Poulet au Gingembre avec du riz et gambas.",
+      "link": "https://www.youtube.com",
+      "ingredients": [
+        {
+          "name": "Poulet",
+          "quantity": 1,
+          "unit": "kg"
+        },
+        {
+          "name": "Gingembre",
+          "quantity": 250,
+          "unit": "g"
+        },
+        {
+          "name": "Riz",
+          "quantity": 1,
+          "unit": "kg"
+        }
+      ]
+    },
+    {
+      "name": "wow",
+      "description": "wowie",
+      "link": "yes",
+      "nb_part": "4",
+      "ingredients": [
+        {
+          "name": "a",
+          "quantity": 2,
+          "unit": "c"
+        },
+        {
+          "name": "d",
+          "quantity": 4,
+          "unit": "o"
+        },
+        {
+          "name": "a",
+          "quantity": 2,
+          "unit": "c"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "name": "the end",
+      "description": "of my suffering",
+      "link": "is nigh",
+      "nb_part": "69",
+      "ingredients": [
+        {
+          "name": "pain",
+          "quantity": 9001,
+          "unit": "unconscious kittens"
+        }
+      ],
+      "id": 3
+    }
+  ]
+}

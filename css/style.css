@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'Parisienne';
+    src: url('/fonts/Parisienne-Regular.ttf');
+}
+
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/img/bg.jpg');
+    background-size: 400px;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+* {
+    font-family: 'Parisienne';
+}
+
+button {
+    border-radius: 10rem;
+    border-style: none;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+table,
+td {
+    border: 1px solid #333;
+}
+
+tbody td {
+    background: #fffb;
+    color: #000;
+}
+
+td {
+    padding: 0.5rem 1rem;
+}
+
+thead,
+tfoot {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    flex-flow: row;
+}
+
+.col {
+    width: 100%;
+    margin: 1rem;
+}
+
+button.success {
+    background: #4f0;
+}
+
+button.danger {
+    background: #f44;
+}
+
+button.warning {
+    background: #f80;
+}
+
+.notepad, #ingredient-list {
+    background: url('/img/notepad.jpg');
+    background-size: 800px;
+    color: #000;
+    padding: 0.1rem 1rem;
+    padding-left: 10rem;
+    line-height: 2rem;
+    margin: 1rem;
+}

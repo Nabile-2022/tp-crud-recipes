@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Carnet de recettes</title>
+</head>
+
+<body>
+    <main>
+        <div class="row">
+            <div class="col">
+                <div name="liste-recettes">
+                    <h1>
+                        Carnet de recettes
+                        <button id="update-recette-list">🔄</button>
+                        <button id="add-recette" class="success">➕</button>
+                    </h1>
+                    <table>
+                        <thead>
+                            <tr>
+                                <td>Recette</td>
+                                <td>Description</td>
+                                <td>N° de parts</td>
+                                <td>Actions</td>
+                            </tr>
+                        </thead>
+                        <tbody id="recette-list"></tbody>
+                    </table>
+                </div>
+            </div>
+            <div id="side-panel" class="col">
+                <div id="add-recette-panel" hidden>
+                    <form name="ajouter-recette">
+                        <h2>Ajouter une recette</h2>
+                        <div>
+                            <label for="name">Nom</label>
+                            <input type="text" name="name" />
+                        </div>
+                        <div>
+                            <label for="type">Description</label>
+                            <input type="text" name="description" />
+                        </div>
+                        <div>
+                            <label for="type">Lien</label>
+                            <input type="text" name="link" />
+                        </div>
+                        <div>
+                            <label for="type">N° de parts</label>
+                            <input type="number" min="1" name="nb_part" />
+                        </div>
+                        <div>
+                            <h3>Liste d'ingrédients</h3>
+                            <table id="form-ingredient-list">
+                                <thead>
+                                    <tr>
+                                        <td>Nom</td>
+                                        <td>Quantité</td>
+                                        <td>Unité</td>
+                                        <td>Actions</td>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                        </div>
+                        <br>
+                        <button type="submit" class="success">➕</button>
+                    </form>
+                </div>
+                <div id="edit-recette-panel" hidden>
+                    <form name="edit-recette">
+                        <h2>Modifier la recette</h2>
+                        <div>
+                            <label for="name">Nom</label>
+                            <input type="text" name="name" />
+                        </div>
+                        <div>
+                            <label for="type">Description</label>
+                            <input type="text" name="description" />
+                        </div>
+                        <div>
+                            <label for="type">Lien</label>
+                            <input type="text" name="link" />
+                        </div>
+                        <div>
+                            <label for="type">N° de parts</label>
+                            <input type="number" min="1" name="nb_part" />
+                        </div>
+                        <div>
+                            <h3>Liste d'ingrédients</h3>
+                            <table id="edit-form-ingredient-list">
+                                <thead>
+                                    <tr>
+                                        <td>Nom</td>
+                                        <td>Quantité</td>
+                                        <td>Unité</td>
+                                        <td>Actions</td>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                        </div>
+                        <br>
+                        <button type="submit" class="success">➕</button>
+                    </form>
+                </div>
+                <div id="ingredient-list" hidden>
+                    <h2>Ingrédients</h2>
+                    <ul id="recette-info"></ul>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="js/index.js"></script>
+</body>
+</html>
